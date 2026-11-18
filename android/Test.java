@@ -1,0 +1,1 @@
+public class Test { public static void main(String[] args) { System.out.println(new java.io.File(System.getenv(\"ANDROID_PREFS_ROOT\")).getAbsolutePath()); System.out.println(new java.io.File(System.getenv(\"ANDROID_USER_HOME\")).getAbsolutePath()); } }  

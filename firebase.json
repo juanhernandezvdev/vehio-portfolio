@@ -1,0 +1,27 @@
+{
+  "firestore": {
+    "rules": "firestore.rules",
+    "indexes": "firestore.indexes.json"
+  },
+  "flutter": {
+    "platforms": {
+      "android": {
+        "default": {
+          "projectId": "garajepro",
+          "appId": "1:36297751205:android:5764148de9f922f715ab4c",
+          "fileOutput": "android/app/google-services.json"
+        }
+      },
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "garajepro",
+          "configurations": {
+            "android": "1:36297751205:android:5764148de9f922f715ab4c",
+            "ios": "1:36297751205:ios:662510fd23c39b1215ab4c",
+            "web": "1:36297751205:web:42b7f048f773f92015ab4c"
+          }
+        }
+      }
+    }
+  }
+}
